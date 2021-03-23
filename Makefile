@@ -1,5 +1,5 @@
 ROOT_DIR=$(dir $(realpath $(firstword $(MAKEFILE_LIST))))
-FILE=/audio/tuunas_amanze_one_day_One Day_20210315.ogg
+FILE=/audio/One Day_20210315.ogg
 
 build:
 	docker build . -t aoirint/pulseaudio
